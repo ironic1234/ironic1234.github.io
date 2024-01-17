@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from 127.0.0.1:5000/projects/SuperSpeedyOptionsPricing by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Jan 2024 00:11:25 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <title>Ronak's Website - SuperSpeedyOptionsPricing</title>
+        <link rel="stylesheet" href="../static/index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../static/index.js"></script>
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QW6T2PXMXF"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-QW6T2PXMXF');
+        </script>
+        
+        <link rel="shortcut icon" href="../static/favicon.ico">
+    <body>
+        <div id="main">
+            <h1 class="title"><a class="title" href="../index.html">Ronak's Website</a></h1>
+            <h2 id="subtitle">SuperSpeedyOptionsPricing</h2>
+            <p class="thistext">
+                SuperSpeedyOptionsPricing is an experiment that I have worked on. I find options and how their prices change based on change in underlying price and other factors really interesting. However, this program isn't really useful to actually use to trade because it doesn't take into account how the market moves and small IV changes which are very difficult to predict. I use this to try and make it as fast as possible. I got this idea after I wrote it in python and it was really slow, so I first rewrote it in C++ and then figured out other ways to make it faster.
+            </p>
+            <p class="thistext">
+                PS: This is heavily based on <a style="font-size: 1vw;" href="https://www.quantstart.com/articles/Calculating-the-Greeks-with-Finite-Difference-and-Monte-Carlo-Methods-in-C/">this article</a>
+            </p>
+            <img id="calcfunctions" src="../static/calcfunctions.png">
+            <p class="thistext">These are the functions that are used to calculate option prices and their greeks, which are essentially their attributes and how its price changes based on how other factors change.</p>
+            <img id="createfile" src="../static/createfile.png">
+            <p class="thistext">This is a function to create a file of all of the options prices and greeks given the factors. It creates one file for one implied volatility and then puts all combinations of the rest of the given factors into the file.</p>
+            <img id="mainfunc" src="../static/mainfunc.png">
+            <p class="thistext">This is the last and main function of the program. This uses all of the previous functions and takes input from the user to figure out what it needs to calculate. At the end it calculates how long it takes using the computer's clock</p>
+        </div>
+        
+    </body>
+
+<!-- Mirrored from 127.0.0.1:5000/projects/SuperSpeedyOptionsPricing by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Jan 2024 00:11:44 GMT -->
+</html>

@@ -1,0 +1,261 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    color: lightslategray;
+    font-size: 2vh;
+    font-size: 2vw;
+}
+
+.title {
+    color: orange;
+    font-size: 5vh;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    
+}
+
+#sidebarButton {
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5vw;
+    position: absolute;
+    top: 0%;
+    height: 6%;
+    left: 2%;
+    transition: 0.5s;
+}
+
+#subtitle {
+    color: darkblue;
+    width: 33%;
+    margin: auto;
+    text-align: center;
+    font-size: 3vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main {
+    transition: 0.5s;
+}
+
+#sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 30px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    border: 5px solid rgba(128,128,128,0.2);
+}
+
+.sidebarComponent {
+    color: orange;
+    margin-left: 15%;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+.text {
+    text-align: center;
+    color: darkblue;
+    font-size: 2.5vh;
+    width: 50%;
+    margin: auto;
+}
+
+#imgome1 {
+    height: auto;
+    width: 22.5%;
+}
+
+#imgome2 {
+    height: auto;
+    width: 40%;
+}
+#imgome3 {
+    height: auto;
+    width: 22.5%;
+}
+.duraludon {
+    position: relative;
+    height: auto;
+    width: 30%;
+    left: 5%;
+}
+.duraludon1 {
+    position: relative;
+    height: auto;
+    width: 22%;
+    left: 5%;
+}
+
+.caption {
+    color: lightslategray;
+    font-size: 2vh;
+    font-size: 2vw;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.images {
+    position: relative;
+    width: 85%;
+    left: 13%;
+}
+
+#straykids {
+    width: 100%;
+    height: auto;
+}
+
+#ive {
+    width: 100%;
+    height: auto;
+}
+
+#itzy {
+    width: 100%;
+    height: auto;
+}
+
+#blackpink {
+    width: 100%;
+    height: auto;
+}
+
+#straykidsdiv {
+    text-align: center;
+    width: 25%;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 1%;
+}
+
+#ivediv {
+    text-align: center;
+    width: 15%;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -0.5%;
+}
+
+#itzydiv {
+    text-align: center;
+    width: 25%;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 24%;
+}
+
+#blackpinkdiv {
+    text-align: center;
+    width: 33%;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 27%;
+}
+
+#lisasu {
+    width: 100%;
+    height: auto;
+}
+
+#jensenhuang {
+    width: 100%;
+    height: auto;
+}
+
+#lisasudiv {
+    width: 40%;
+    height: 90%;
+    text-align: center;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+  
+#jensenhuangdiv {
+    width: 29.5%;
+    height: 90%;
+    text-align: center;
+    position: absolute;
+    margin-left: 58%;
+    margin-top: 5.9%;
+}
+
+.projectTitle {
+    font-size: 4vw;
+    color: orange;
+    text-decoration: underline;
+    text-decoration-color: lightslategray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#mynetwork {
+    text-align: center;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 0%;
+}
+
+#superSpeedyOptionsPricing {
+    text-align: center;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 13.5%;
+}
+
+#theFlyCatcher {
+    text-align: center;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 30%;
+}
+
+#networkDiagram {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+    border: 2px solid #000;
+}
+
+.thistext {
+    color: darkblue;
+    font-size: 1vw;
+}
+
+#calcfunctions {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#createfile {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mainfunc {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
